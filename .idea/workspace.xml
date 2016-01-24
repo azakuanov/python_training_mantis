@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d4d47d6-7a07-4c74-bd15-497f456a584c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test_add_project.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test_del_project.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/pip-selfcheck.json" afterPath="$PROJECT_DIR$/env/pip-selfcheck.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/application.py" afterPath="$PROJECT_DIR$/fixture/application.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/projects.py" afterPath="$PROJECT_DIR$/fixture/projects.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_delete_project.py" afterPath="$PROJECT_DIR$/test/test_delete_project.py" />
     </list>
     <ignored path="python_training_mantis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_add_new_project.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_add_new_project.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_add_new_project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.2881356">
+              <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -100,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/fixture/projects.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+              <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -108,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_delete_project.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_delete_project.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/test_delete_project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3601695">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -158,8 +154,8 @@
         <option value="$PROJECT_DIR$/test/test_add_project.py" />
         <option value="$PROJECT_DIR$/test/test_signup_new_account.py" />
         <option value="$PROJECT_DIR$/test/test_add_new_project.py" />
-        <option value="$PROJECT_DIR$/test/test_delete_project.py" />
         <option value="$PROJECT_DIR$/fixture/projects.py" />
+        <option value="$PROJECT_DIR$/test/test_delete_project.py" />
       </list>
     </option>
   </component>
@@ -265,7 +261,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_delete_project.py">
+  <component name="RunManager" selected="Python tests.py.test in test_add_new_project.py">
     <configuration default="false" name="py.test in test_login.py" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -510,8 +506,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_project.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_add_new_project.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_add_new_project.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_project.py" />
         <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_signup_new_account.py" />
         <item index="3" class="java.lang.String" itemvalue="Python.test_add_project" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_login.py" />
@@ -532,11 +528,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_delete_project_py - 2016.01.23 at 19h 15m 51s.xml">
-      <configuration name="py.test in test_delete_project.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_delete_project_py - 2016.01.23 at 19h 16m 17s.xml">
-      <configuration name="py.test in test_delete_project.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_add_new_project_py - 2016.01.23 at 19h 43m 17s.xml">
+      <configuration name="py.test in test_add_new_project.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_delete_project_py - 2016.01.23 at 19h 18m 24s.xml">
       <configuration name="py.test in test_delete_project.py" configurationId="tests" />
@@ -560,6 +553,9 @@
       <configuration name="py.test in test_delete_project.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_delete_project_py - 2016.01.23 at 19h 39m 08s.xml">
+      <configuration name="py.test in test_delete_project.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_delete_project_py - 2016.01.23 at 19h 42m 52s.xml">
       <configuration name="py.test in test_delete_project.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -729,16 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_add_new_project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="45" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_signup_new_account.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -752,7 +738,7 @@
     <entry file="file://$PROJECT_DIR$/fixture/projects.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -771,8 +757,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_delete_project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3601695">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_add_new_project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2881356">
+          <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>

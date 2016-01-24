@@ -51,20 +51,19 @@ class Project_helper:
             self.group_cache.append(Project(projectname = projectname))
         return list(self.group_cache)
 
-    def delete_project(self, index):
+    def delete_project(self):
         wd = self.app.wd
         self.go_to_project_list_page()
-        self.open_random_project(index)
+        self.open_random_project()
         wd.find_element_by_css_selector("form > input.button").click()
         time.sleep(1)
         wd.find_element_by_css_selector("input.button").click()
 
         self.go_back_to_projects_page()
 
-    def open_random_project(self, index):
+    def open_random_project(self):
         wd = self.app.wd
         wd.find_element_by_css_selector("tr.row-2 > td > a").click()
-        #wd.find_element_by_css_selector("tr.row-2 > td > a").click()
         time.sleep(1)
-        #wd.find_element_by_css_selector("tr.row-2 > td > a").click()
+
 
