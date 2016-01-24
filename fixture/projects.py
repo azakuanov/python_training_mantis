@@ -21,7 +21,7 @@ class Project_helper:
 
     def fill_group_fields(self, project):
         wd = self.app.wd
-        self.change_field_value("name", project.name)
+        self.change_field_value("name", project.projectname)
         self.change_field_value("description", project.description)
 
     def change_field_value(self, field_name, text):
@@ -54,11 +54,17 @@ class Project_helper:
     def delete_project(self, index):
         wd = self.app.wd
         self.go_to_project_list_page()
-        self.select_project(index)
-        wd.find_element_by_name("delete").click()
+        self.open_random_project(index)
+        wd.find_element_by_css_selector("form > input.button").click()
+        time.sleep(1)
+        wd.find_element_by_css_selector("input.button").click()
+
         self.go_back_to_projects_page()
 
-    def select_project(self, index):
+    def open_random_project(self, index):
         wd = self.app.wd
-        wd.find_elements_by_name("selected[]")[index].click()
+        wd.find_element_by_css_selector("tr.row-2 > td > a").click()
+        #wd.find_element_by_css_selector("tr.row-2 > td > a").click()
+        time.sleep(1)
+        #wd.find_element_by_css_selector("tr.row-2 > td > a").click()
 
